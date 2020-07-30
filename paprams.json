@@ -1,0 +1,27 @@
+{
+   "qa" : {
+        "peach" : {
+            "version" : "v1.2"
+        },
+        "banana" : {
+            "version" : "v2.3"
+        }
+   },
+   "ci" : {
+        "apple" : {
+            "version" : "v2.1"
+        },
+        "orange" : {
+            "version" : "v3.2"
+        }       
+   },
+   "prod" : {
+        "kiwi" : {
+            "version" : "v1.3"
+        },
+        "mango" : {
+            "version" : "v3.1"
+        }
+   }
+
+}
