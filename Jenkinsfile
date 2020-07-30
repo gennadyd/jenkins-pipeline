@@ -10,6 +10,8 @@ pipeline {
                     sh "pwd && ls -ltr"
                     job_params = readJSON file: "./params.json"
                     println job_params
+                    println common.get_results("test")
+
                 }
             }
         }        
