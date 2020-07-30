@@ -4,8 +4,10 @@ pipeline {
     stages {
         stage('Init') {
             steps {
-                echo 'Initializing..'
-                common.setDisplayName("")
+                script{
+                    echo 'Initializing..'
+                    common.setDisplayName("")
+                }
             }
         }        
         stage('Build') {
