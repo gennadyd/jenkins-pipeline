@@ -7,6 +7,11 @@ pipeline {
                 script{
                     echo 'Initializing..'
                     common.setDisplayName("PipelineTest")
+                    job_params = readJSON file: "./params.json"
+                    println job_params
+
+                    sh "ls -ltr"
+
                 }
             }
         }        
