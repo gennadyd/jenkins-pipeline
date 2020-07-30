@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Init') {
+            steps {
+                echo 'Initializing..'
+                common.setDisplayName("")
+            }
+        }        
         stage('Build') {
             steps {
                 echo 'Building..'
