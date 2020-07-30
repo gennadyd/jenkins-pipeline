@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script{
                     echo 'Initializing..'
-                    common.setDisplayName("")
+                    common.setDisplayName("PipelineTest")
                 }
             }
         }        
